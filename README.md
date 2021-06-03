@@ -1,6 +1,7 @@
 ## Env 
 
       conda create -n  beamsearch_env python=3.6 -y
+      conda activate beamsearch_env2
       pip  install torch==1.5.0 torchtext==0.6.0 spacy==2.2.4
       python3 -m spacy download de
       python3 -m spacy download en
